@@ -56,7 +56,7 @@ h3 {
 
 p {
     font-family: 'Lato', sans-serif;
-    border: green 2px solid;
+    /* border: green 2px solid; */
 }
 
 article {
@@ -92,43 +92,98 @@ h3 {
     margin-left: 5vw;
 }
 
+.article {
+    line-height: 10.618em;
+    border: 2px solid red;
+}
 .left,
 .middle. .right {}
 
 .left {
-    border: lime 2px solid;
     grid-column-start: 2;
     grid-column-end: 5;
     clear: both;
+    height:100vh;
 }
 
-.article1 {
-
+.left img {
+    border: 2px solid red;
+    height: 60vh;
 }
 
-.article2 {
-    height:82.5%;
-}
 
-.article3 {
-    height: 82.5%;
-}
-.article1. .article2,
-.article3 {}
 
 .middle {
-    border: lime 2px solid;
     grid-column-start: 5;
     grid-column-end: 8;
     clear: both;
 }
 
 .right {
-    border: lime 2px solid;
     grid-column-start: 8;
     grid-column-end: 11;
     clear: both;
 }
+.article1 {
+    height:50vh;
+}
+
+.article1 > img {
+    height: 50vh;
+}
+
+.article2 {
+    height: 60vh;
+}
+.article2 > img {
+    size: cover;
+}
+
+.article3 {
+    margin-top: 0px;
+    height: 60vh;
+}
+.about h3 {
+    font-size: 12px;
+}
+.about {
+    display: flex;
+    flex-direction: column;
+    background-color: #CDF3F6;
+}
+
+.about p {
+    margin-left: 25%;
+    width: 50%;
+}
+.picture1 {
+    margin-top: -31px;
+}
+
+.picture2 {
+
+    margin-top: -90px;
+}
+
+.picture3 {
+
+    margin-bottom: 20px;
+}
+
+.picture4 {
+
+}
+
+.picture5 {
+
+}
+
+.picture6 {
+    margin-top: -35px;
+    height: 34vh;
+}
+
+
 
 img {
     text-align: center;
@@ -137,6 +192,8 @@ img {
 .row {
     display: flex;
     flex-wrap: wrap;
+    border: 2px solid green;
+
 
 }
 
@@ -145,21 +202,145 @@ img {
     max-width: 25%;
     padding: 0px auto;
     margin-left: 6%;
+
 }
 
 .column-1 {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    margin-top: -20px;
-    margin-left: 50px;
+    margin-top: -26px;
+    margin-left: 75px;
+    margin-right: -25px;
+}
+
+.column-2 {
+    margin-top: 1px;
 
 }
 
+.column-3 {
+    margin-left: 20px;
+    margin-top: 1px;
+}
+
+.intouch {
+    text-align: center;
+    font-weight: 600;
+}
+
+.getintouch {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+}
+
+footer {
+    background-color: #CDF3F6;
+    display: flex;
+    flex-flow: row wrap;
+    height: 20vh;
+    justify-content: space-around;
+}
+
+footer input[type="submit"] {
+    text-align: center;
+}
+
+.readmore {
+    margin-top: 20px;
+    width: 10vw;
+    margin-bottom: 80px;
+    text-align:center;
+    border: 1.5px solid black;
+    background-color: white;
+    margin-left:10vw;
+
+}
 /* ----------------------------------MEDIA QUERIES-------------------------------- */
 @media screen and (max-width: 600px) {
+    body {
+        width: 100%;
+    }
+    
     .column {
         flex: 100%;
         max-width: 33%;
+    }
+
+    .archive-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100%;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .hamburger {
+        display: inline-block;
+    }
+
+    .article1 {
+
+    }
+
+    .archive-head{
+        padding-top: 50px;
+        padding-right: 12vw;
+        font-size: 18px;
+    }
+
+    .left {
+        flex: 100%;
+        max-width: 100%;
+    }
+
+    .left img {
+        margin-top: 20px;
+        padding-left: 90px;
+        width: 80%;
+        height: 50%;
+    }
+
+    .left h3 {
+        margin-top: -50px;
+    }
+
+    .left article {
+        margin-top: -100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    
+    }
+
+    article {
+        text-align: center;
+        border: 2px solid orange;
+    }
+
+    .readmore {
+        margin-top: 20px;
+        width: 20vw;
+        margin-bottom: 80px;
+        text-align:center;
+        border: 1.5px solid black;
+        background-color: white;
+        margin-left: 37.5vw;
+
+    }
+
+    .middle {
+        margin-top: -50px;
+        flex: 100%;
+        max-width: 100%;
+    }
+    .right {
+        flex: 100%;
+        max-width: 100%;
+        margin-bottom: 5vh;
     }
 }
