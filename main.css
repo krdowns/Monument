@@ -384,7 +384,274 @@ li a{
 }
 
 
-/* ----------------------------------MEDIA QUERIES-------------------------------- */
+@media screen and (max-width: 950px) {
+    body {
+        width: 100%;
+        margin-left: 7.5em;
+    }
+
+    header {
+        margin-top: -1em;
+        margin-left: -7.8em;
+        width:137%;
+    }
+
+    header img {
+        width: 100%;
+        margin-right: 0em;
+    }
+    
+
+    h1 {
+
+        font-size: 64px;
+    }
+
+    h2 {
+
+        font-size: 48px;
+    }
+
+    h3 {
+
+        font-size: 36px;
+    }
+
+    p {
+
+        font-size: 32px;
+    }
+
+    .archive-container {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100%;
+        margin-left: 2em;
+    }
+
+    nav {
+
+        display: none;
+    }
+
+    .hamburger {
+
+        display: inline-block;
+    }
+
+
+
+    .archive-head{
+
+        padding-top: 2em;
+        padding-right: 2em;
+        font-size: 42px;
+    }
+
+    .left {
+
+        flex: 100%;
+        max-width: 100%;
+    }
+
+    .left img {
+
+        margin-top: 20px;
+        padding-left: 3.5em;
+        margin-left: 5.5em;
+        width: 42.5em;
+        height: 50%;
+    }
+
+    .left h3 {
+
+
+        margin-top: 2em;
+    }
+
+    .left article {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-right: -5em;
+    }
+
+    .middle img {
+
+        width: 40em;
+        margin-top: 15em;
+        margin-left: 9.5em;
+
+    }
+
+    .right img {
+
+        width: 40em;
+        margin-left: 9.5em;
+    }
+
+    .article1 {
+
+        margin-left: 4em;
+        width: 75em;
+    }
+    article {
+        text-align: center;
+    }
+
+    .readmore {
+        font-size: 1.5em;
+        margin-top: 20px;
+        margin-left: 7.25em;
+        font-weight: 600;
+        width: 75vw;
+        margin-bottom: 80px;
+        text-align:center;
+        border: 2px solid black;
+        background-color: white;
+
+
+    }
+    .about {
+        margin-left:-6.8em;
+        width: 137%;
+    }
+
+    .about h2 {
+        font-size: 48px;
+    }
+    .about h3 {
+        font-size: 44px;
+        word-wrap: wrap;
+    }
+
+    .middle {
+        margin-top: -50px;
+        flex: 100%;
+        max-width: 100%;
+    }
+    .right {
+        flex: 100%;
+        max-width: 100%;
+        margin-bottom: 5vh;
+    }
+
+    .issue {
+        margin-left: 2em;
+    }
+
+    .row {
+        display: flex;
+        flex-flow: column;
+        width: 75%;
+    }
+
+    .column {
+        display: flex;
+        flex-flow: column wrap;
+        
+    
+    }
+    .getintouch {
+        display: flex;
+        flex-direction: column;
+        margin-left: 7.5em;
+    }
+    
+    .getintouchtop {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        margin-left: 8.5em;
+    }
+
+    .getintouchtop input {
+        width: 50em;
+        margin-left: -8.75em;
+    }
+
+    textarea {
+        width: 50em;
+        margin-left: 1.5em;
+    }
+
+    .getintouch input[type="submit"] {
+        width: 50em;
+        margin-left: 1.5em;
+    }
+    
+    article {
+        font-size: 18px;
+    }
+
+    footer input{   
+        margin-bottom: .5em;
+    }
+
+    .copyright {
+        margin-top: 1em;
+        text-align: center;
+        border-top: 2px gray solid;
+    }
+
+    .picture1 {
+        margin-left: -9em;
+        width: 200%;
+        margin-top: 10em;
+    }
+    
+    .picture2 {
+        width: 200%;
+        margin-top: 1em;
+        margin-left: -9em;
+    }
+    
+    .picture3 {
+        width: 200%;
+        margin-top: 1em;
+        margin-left: -2.5em;
+    }
+    
+    .picture4 {
+        width: 200%;
+        margin-left: 18em;
+        margin-top: -68.25em;
+    }
+    
+    .picture5 {
+        width: 200%;
+        margin-left: 21.905em;
+        margin-top: -14.6em;
+    
+    }
+    
+    .picture6 {
+        width: 200%;
+        margin-left: 21.905em;
+        margin-top: 1em; 
+    }
+    li {
+        transform: translate(-18.5em)
+    }
+
+    footer input[type="email"] {
+        width: 25em;
+        height: 3em;
+    }
+    footer input[type="submit"] {
+        width: 25em;
+        height: 3em;
+    }
+
+    .footerform {
+        display: flex;
+        flex-direction: column;
+    }
+
+/* ----------------------------------MEDIA QUERY PHONE-------------------------------- */
 
 @media screen and (max-width: 600px) {
     body {
