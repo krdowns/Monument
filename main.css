@@ -13,8 +13,10 @@ nav {
     display: flex;
     flex-direction: row;
     justify-content: center;
+}
 
-
+.hamburger{ 
+    display: none;
 }
 
 a {
@@ -383,7 +385,7 @@ li a{
     font-size: 32px;
 }
 
-
+/* MEDIA QUERY FOR MEDIUM SCREENS */
 @media screen and (max-width: 950px) {
     body {
         width: 100%;
@@ -403,7 +405,7 @@ li a{
     
 
     h1 {
-
+        margin-top:7.5em;
         font-size: 64px;
     }
 
@@ -435,10 +437,9 @@ li a{
 
         display: none;
     }
-
+    
     .hamburger {
-
-        display: inline-block;
+        display: none;
     }
 
 
@@ -460,7 +461,7 @@ li a{
 
         margin-top: 20px;
         padding-left: 3.5em;
-        margin-left: 5.5em;
+        margin-left: 9.5em;
         width: 42.5em;
         height: 50%;
     }
@@ -483,14 +484,14 @@ li a{
 
         width: 40em;
         margin-top: 15em;
-        margin-left: 9.5em;
+        margin-left: 13.5em;
 
     }
 
     .right img {
 
         width: 40em;
-        margin-left: 9.5em;
+        margin-left: 13.5em;
     }
 
     .article1 {
@@ -555,10 +556,14 @@ li a{
         
     
     }
+
+    .intouch {
+        margin-left: 2em;
+    }
     .getintouch {
         display: flex;
         flex-direction: column;
-        margin-left: 7.5em;
+        margin-left: 11.5em;
     }
     
     .getintouchtop {
@@ -617,24 +622,24 @@ li a{
     
     .picture4 {
         width: 200%;
-        margin-left: 18em;
-        margin-top: -68.25em;
+        margin-left: 20em;
+        margin-top: -75.25em;
     }
     
     .picture5 {
         width: 200%;
-        margin-left: 21.905em;
-        margin-top: -14.6em;
+        margin-left: 23.905em;
+        margin-top: -16.6em;
     
     }
     
     .picture6 {
         width: 200%;
-        margin-left: 21.905em;
+        margin-left: 23.905em;
         margin-top: 1em; 
     }
     li {
-        transform: translate(-18.5em)
+        transform: translate(-15.5em)
     }
 
     footer input[type="email"] {
@@ -706,10 +711,10 @@ li a{
     }
 
     .hamburger {
-
         display: inline-block;
+        color: white;
+        margin-bottom: 15em;
     }
-
 
 
     .archive-head{
