@@ -1,0 +1,178 @@
+/* ----------------------------------MEDIA QUERIES-------------------------------- */
+@media screen and (max-width: 400px) {
+    body {
+        width: 100%;
+        margin-left: 4.75em;
+    }
+
+    header {
+        margin-top: -1em;
+        margin-left: -3.7em;
+        width:120%;
+    }
+
+    header > img {
+        margin-right: 20em;
+    }
+    }
+
+    h1 {
+        font-size: 64px;
+    }
+
+    h2 {
+        font-size: 48px;
+    }
+
+    h3 {
+        font-size: 36px;
+    }
+
+    p {
+        font-size: 32px;
+    }
+    .column {
+        flex: 100%;
+        max-width: 33%;
+    }
+
+    .archive-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100%;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .hamburger {
+        display: inline-block;
+    }
+
+
+
+    .archive-head{
+        padding-top: 50px;
+        padding-right: 12vw;
+        font-size: 42spx;
+        margin-left: 1em;
+    }
+
+    .left {
+        flex: 100%;
+        max-width: 100%;
+    }
+
+    .left img {
+        margin-top: 20px;
+        padding-left: 90px;
+        width: 80%;
+        height: 50%;
+    }
+
+    .left h3 {
+
+        margin-top: 2em;
+    }
+
+    .left article {
+        margin-top: ;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .middle img {
+        width: 40em;
+        margin-top: 15em;
+        margin-left: 7.5em;
+
+    }
+
+    .right img {
+        width: 40em;
+        margin-left: 7.5em;
+    }
+
+    .article1 {
+        margin-left: 4em;
+        width: 75em;
+    }
+    article {
+        text-align: center;
+    }
+
+    .readmore {
+        font-size: 1.5em;
+        margin-top: 20px;
+        margin-left: 11.25em;
+        font-weight: 600;
+        width: 75vw;
+        margin-bottom: 80px;
+        text-align:center;
+        border: 2px solid black;
+        background-color: white;
+
+
+    }
+
+    .about h2 {
+        font-size: 48px;
+    }
+    .about h3 {
+        font-size: 44px;
+        word-wrap: wrap;
+    }
+
+    .middle {
+        margin-top: -50px;
+        flex: 100%;
+        max-width: 100%;
+    }
+    .right {
+        flex: 100%;
+        max-width: 100%;
+        margin-bottom: 5vh;
+    }
+
+    .getintouch {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .getintouchtop {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        margin-left: 8.5em;
+    }
+
+    textarea {
+        width: 50em;
+        margin-left: -1em;
+    }
+
+    .getintouch input[type="submit"] {
+        width: 50em;
+        margin-left:-1em;
+    }
+    
+    article {
+        font-size: 18px;
+    }
+
+    footer input{
+        margin-left: 21em;
+        margin-bottom: .5em;
+    }
+
+    .copyright {
+        margin-top: 1em;
+        text-align: center;
+        border-top: 2px gray solid;
+    }
+
+
+}
